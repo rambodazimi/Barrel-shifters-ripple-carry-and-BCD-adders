@@ -2,16 +2,22 @@
 
 <h3>Description</h3>
 
+<h4>4-bit Barrel Shifter</h4>
 You are required to implement the 4-bit barrel shifter in VHDL using both structural and behavioral styles. To obtain a structural description of the 4-bit barrel shifter, you are required to use the structural description of the 2-to-1 multiplexer. Write a structural VHDL description for the 4-bit circular barrel shifter by instantiating the structural description of the 2-to-1 multiplexer 8 times.
 
 Once completed, you are required to implement the 4-bit circular barrel shifter using the behavioral style. One way to obtain a behavioral description of the 4-bit circular barrel shifter is the use of VHDL select statements. Write a behavioral VHDL code for the 4-bit circular barrel shifter using a single VHDL select statement only.
 
-In this section, you will be asked to perform the design and simulation of the following two adder circuits: (a) a 4-bit ripple-carry adder; and (b) a one-digit binary coded decimal (BCD) adder. Details of the assignments are described below.
+In this section, you will be asked to perform the design and simulation of the following two adder circuits:
+
+(a) a 4-bit ripple-carry adder;
+
+(b) a one-digit binary coded decimal (BCD) adder.
+
+Details of the assignments are described below.
 
 <h4>Ripple-Carry Adder (RCA)</h4>
 
 In this section, you will implement a structural description of a 4-bit ripple-carry adder using basic addition components: half-adders and full-adders.
-
 
 A half-adder is a circuit that takes two binary digits as inputs, and produces the result of the addition of the two bits in the form of a sum and carry signals. The carry signal represents an overflow into the next digit of a multi-digit addition.
 
@@ -28,6 +34,8 @@ Note that S(4) contains the carry-out of the 4-bit adder. After you have describ
 In this part, you are required to implement the 4-bit RCA using behavioral description. One way to obtain a behavioral description is to use arithmetic operators in VHDL (i.e., “+”). Write a behavioral VHDL code for the 4-bit RCA.
 
 After you have described your circuit in VHDL, write a testbench code and perform an exhaustive test of your VHDL behavioral description of the 4-bit RCA.
+
+<h4>BCD Adder</h4>
 
 In this section, you will implement a one-digit BCD adder in VHDL. A one-digit BCD adder adds two four-bit numbers represented in a BCD format. The result of the addition is a BCD-format 4-bit output, representing the decimal sum, and a carry that is generated if this sum exceeds a decimal value of 9.
 
