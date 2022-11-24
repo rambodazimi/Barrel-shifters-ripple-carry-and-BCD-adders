@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.STD_LOGIC_11164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity rambod_azimi_bcd_adder_structural is
+port ( A: in std_logic_vector (3 downto 0);
+		 B: in std_logic_vector (3 downto 0);
+		 S: out std_logic_vector (3 downto 0);
+		 C: out std_logic);
+end rambod_azimi_bcd_adder_structural;
+

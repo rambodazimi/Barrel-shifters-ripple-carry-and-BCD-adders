@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+entity rambod_azimi_barrel_shifter_behavioral is
+Port (X : in std_logic_vector (3 downto 0) ;
+sel : in std_logic_vector (1 downto 0) ;
+Y : out std_logic_vector (3 downto 0) );
+end rambod_azimi_barrel_shifter_structural ;
+
+
+
+--Architecture (Structural)
+architecture barrel_shifter of rambod_azimi_barrel_shifter_behavioral is
+
+
+--Component
+component rambod_azimi_MUX_behavioral is
+	PORT( A: in std_logic;
+			B: in std_logic;
+			S: in std_logic;
+			Y: out std_logic);
+end component;
+
+begin
+
+end barrel_shifter;
