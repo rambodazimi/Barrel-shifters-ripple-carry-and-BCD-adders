@@ -1,0 +1,79 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Rambod_Azimi_VHDL3_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {P:/VHDL Assignments/VHDL3/rambod_azimi_barrel_shifter_structural.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rambod_azimi_barrel_shifter_structural
+# -- Compiling architecture barrel_shifter of rambod_azimi_barrel_shifter_structural
+# vcom -93 -work work {P:/VHDL Assignments/VHDL3/rambod_azimi_MUX_structural.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rambod_azimi_MUX_structural
+# -- Compiling architecture mux of rambod_azimi_MUX_structural
+# 
+vsim work.rambod_azimi_barrel_shifter_structural
+# vsim work.rambod_azimi_barrel_shifter_structural 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rambod_azimi_barrel_shifter_structural(barrel_shifter)
+# Loading work.rambod_azimi_mux_structural(mux)
+add wave -position insertpoint  \
+sim:/rambod_azimi_barrel_shifter_structural/X \
+sim:/rambod_azimi_barrel_shifter_structural/sel \
+sim:/rambod_azimi_barrel_shifter_structural/Y \
+sim:/rambod_azimi_barrel_shifter_structural/y_output
+run
+vcom -reportprogress 300 -work work {P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rambod_azimi_barrel_shifter_structural_vhd_tst
+# -- Compiling architecture rambod_azimi_barrel_shifter_structural_arch of rambod_azimi_barrel_shifter_structural_vhd_tst
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(67): (vcom-1136) Unknown identifier "to_unsigned".
+# 
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(69): (vcom-1136) Unknown identifier "to_unsigned".
+# 
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(76): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rambod_azimi_barrel_shifter_structural_vhd_tst
+# -- Compiling architecture rambod_azimi_barrel_shifter_structural_arch of rambod_azimi_barrel_shifter_structural_vhd_tst
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(67): (vcom-1136) Unknown identifier "to_unsigned".
+# 
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(69): (vcom-1136) Unknown identifier "to_unsigned".
+# 
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(76): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rambod_azimi_barrel_shifter_structural_vhd_tst
+# -- Compiling architecture rambod_azimi_barrel_shifter_structural_arch of rambod_azimi_barrel_shifter_structural_vhd_tst
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(67): (vcom-1136) Unknown identifier "to_unsigned".
+# 
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(69): (vcom-1136) Unknown identifier "to_unsigned".
+# 
+# ** Error: P:/VHDL Assignments/VHDL3/simulation/modelsim/rambod_azimi_barrel_shifter_structural.vht(76): VHDL Compiler exiting
